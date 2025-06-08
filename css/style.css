@@ -1,0 +1,24 @@
+.gradient-background {
+  background: linear-gradient(270deg, #D3CCE3, #E9E4F0);
+  background-size: 800% 800%;
+  animation: gradientAnimation 20s ease infinite;
+}
+
+/* Optional: Remove backgrounds from hero sections */
+.hero1, .hero2 {
+  background: transparent;
+}
+
+/* Animation keyframes */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
